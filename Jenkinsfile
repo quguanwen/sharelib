@@ -29,7 +29,7 @@ pipeline{
             steps{  //步骤
                 timeout(time: 5, unit: 'MINUTES'){ //步骤超时时间
                 script{  //脚本语法
-                    println('拉代码')
+                    tools.PrintMes("test color","red")
                     }
                 }
             }
