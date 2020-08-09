@@ -39,7 +39,7 @@ pipeline{
             steps{
                 timeout(time: 10, unit: 'MINUTES'){//超时时间
                 script{
-                     tools.PrintMes("sharelib")
+                    println("nennen")
                     }
                 }
             }
