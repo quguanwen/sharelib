@@ -4,6 +4,8 @@
 
 def tools = new org.devops.tools()
 
+hello()  //vars中的全局，会执行改文件的call方法
+
 pipeline{
 
     agent{
